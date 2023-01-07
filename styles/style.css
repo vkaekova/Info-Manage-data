@@ -91,18 +91,22 @@ padding: 50px 10px;
 }
 
 .subheader a:nth-child(1) {
-    background-color: rgba(157, 20, 20, 0.46) ;
-    border-radius: 0.3em;
+    background-color: rgba(169, 54, 54, 0.46) ;
     margin-left: 5px;
-    padding: 10px 20px;
 }
 
 .subheader a:nth-child(2), nav>ul>li:nth-last-child(1) {
     background-color: rgba(35, 30, 30, 0.46) ;
-    border-radius: 0.3em;
-    padding: 10px 20px;
+    
 }
 
-.button:hover {
+.button {
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    padding: 10px 20px !important;
+}
+
+.button:hover, .button>a:hover {
 border-bottom: none;
+opacity: 0.8;
 }
